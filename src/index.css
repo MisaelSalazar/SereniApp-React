@@ -1,0 +1,62 @@
+/* Fondo elegante con degradado */
+.login-body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1f2937, #111827);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card más profesional */
+.card {
+    border: none;
+    border-radius: 25px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Título */
+.card h2 {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Inputs más finos */
+.form-control {
+    padding: 12px 18px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    transition: 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+/* Botón más moderno */
+.btn-primary {
+    padding: 12px;
+    font-weight: 600;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    border: none;
+    transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+}
+
+/* Link */
+a {
+    font-size: 14px;
+    color: #2563eb;
+}
+
+a:hover {
+    text-decoration: underline;
+}
