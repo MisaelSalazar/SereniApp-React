@@ -14,7 +14,7 @@ function Home() {
 
             <Card url="#" icon={faHeart} title={"Mi Estado"} />
             <Card url="#" icon={faChartLine} title={"Historial / Progreso"} />
-            <Card url="#" icon={faGear} title={"Configuración"} />
+            <Card url="/config" icon={faGear} title={"Configuración"} />
 
         </main>
     );
