@@ -32,7 +32,7 @@ const TopBar: FC<TopBarProps> = ({
     };
 
     return (
-        <div className="head-container row">
+        <div className="head-container row topBar mt-2" style={{marginLeft: "0.5rem"}}>
             {/* Volver*/}
             <div className="col-4 mt-1">
                 <FontAwesomeIcon
