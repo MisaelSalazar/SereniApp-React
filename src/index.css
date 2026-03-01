@@ -1,6 +1,7 @@
 body {
-  margin: 0;  
+    margin: 0;
 }
+
 /* Fondo elegante con degradado */
 .login-body {
     min-height: 100vh;
@@ -94,12 +95,23 @@ main {
 /* Estilos Top Bar */
 
 .head-container {
-    width: 106%;
+    width: 96%;
     background: linear-gradient(135deg, #1f2937, #111827);
     border-radius: 2rem;
     color: white;
     padding: 2%;
     font-size: large;
+}
+
+.topBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    z-index: 1000;
 }
 
 /* Estilos Bottom Bar */
@@ -117,9 +129,10 @@ main {
     text-align: center;
 }
 
-.btn-app{
+.btn-app {
     background: linear-gradient(to bottom, #fcd34d, #f59e0b);
     border-style: none;
     padding: 8px;
     border-radius: 1rem;
+    color: black;
 }
