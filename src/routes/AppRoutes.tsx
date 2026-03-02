@@ -3,6 +3,7 @@ import Login from "../pages/Login";
 import Home from "../pages/Home";
 import Config from "../pages/Config";
 import MyState from "../pages/MyState";
+import History from "../pages/History";
 
 function AppRoutes() {
     
@@ -12,6 +13,7 @@ function AppRoutes() {
             <Route path="/home" element={<Home />} />
             <Route path="/config" element={<Config />} />
             <Route path="/state" element={<MyState />} />
+            <Route path="/history" element={<History />} />
         </Routes>
     );
 

@@ -35,7 +35,7 @@ function BottomBar() {
                 </div>
             </div>
             <div className="col-4">
-                <Link to={"#"} className="link-dark link-underline-opacity-0">
+                <Link to={"/history"} className="link-dark link-underline-opacity-0">
                     <FontAwesomeIcon
                         icon={faChartLine}
                         style={{

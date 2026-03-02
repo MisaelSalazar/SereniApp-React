@@ -13,7 +13,7 @@ function Home() {
             <h3 className="text-center mb-4 mt-3">"Estoy aquí para ayudarte, ¿Cómo te sientes hoy?"</h3>
 
             <Card url="/state" icon={faHeart} title={"Mi Estado"} />
-            <Card url="#" icon={faChartLine} title={"Historial / Progreso"} />
+            <Card url="/history" icon={faChartLine} title={"Historial / Progreso"} />
             <Card url="/config" icon={faGear} title={"Configuración"} />
 
         </main>
