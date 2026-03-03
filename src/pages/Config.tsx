@@ -10,7 +10,7 @@ function Config() {
             <TopBar
                 title="Ajustes"
                 rightIcon={faCircleUser}
-                rightLink="#"
+                rightLink="/user"
             ></TopBar>
 
             <div style={{ marginTop: "4rem" }}>
