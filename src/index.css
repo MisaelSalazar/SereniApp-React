@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 /* Fondo elegante con degradado */
 .login-body {
     min-height: 100vh;
@@ -59,4 +63,76 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Missa Styles */
+
+main {
+    margin: 0;
+    min-height: 100vh;
+    padding: 1rem;
+
+    background:
+        radial-gradient(circle at 20% 10%,
+            rgba(255, 255, 255, 0.4),
+            transparent 40%),
+        linear-gradient(180deg,
+            #cfdff3,
+            #d8efe6);
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(to bottom, #fcd34d, #f59e0b);
+}
+
+/* Estilos Top Bar */
+
+.head-container {
+    width: 96%;
+    background: linear-gradient(135deg, #1f2937, #111827);
+    border-radius: 2rem;
+    color: white;
+    padding: 2%;
+    font-size: large;
+}
+
+.topBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    z-index: 1000;
+}
+
+/* Estilos Bottom Bar */
+
+.bottom-container {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 2rem;
+    /* padding: 3%; */
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+    margin-bottom: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-app {
+    background: linear-gradient(to bottom, #fcd34d, #f59e0b);
+    border-style: none;
+    padding: 8px;
+    border-radius: 1rem;
+    color: black;
 }
